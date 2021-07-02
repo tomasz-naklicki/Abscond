@@ -1,0 +1,13 @@
+release/chest.o
+release/console.o
+release/door.o
+release/enemy.o
+release/equipment.o
+release/game.o
+release/main.o
+release/menu.o
+release/player.o
+release/room.o
+release/roomgenerator.o
+release/tile.o
+release/worldgrid.o
