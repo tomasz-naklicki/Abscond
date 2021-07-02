@@ -24,7 +24,7 @@ public:
 private:
     //WAŻNE
     //USTAWIENIE ŚCIEŻKI DO FOLDERU Z ASSETAMI
-    std::string data_folder = "C:/Abscond/data";
+    std::string data_folder = "C:/Abscond/Abscond/data";
 
     //Private variables
     sf::RenderWindow *window;
