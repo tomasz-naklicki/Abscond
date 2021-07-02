@@ -1,0 +1,13 @@
+debug/chest.o
+debug/console.o
+debug/door.o
+debug/enemy.o
+debug/equipment.o
+debug/game.o
+debug/main.o
+debug/menu.o
+debug/player.o
+debug/room.o
+debug/roomgenerator.o
+debug/tile.o
+debug/worldgrid.o
