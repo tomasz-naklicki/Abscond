@@ -15,6 +15,8 @@ Game::Game(){
     this->initializeStairs();
     this->initializePlayers();
     this->initializeText();
+    this->initializeSound();
+
 }
 
 Game::~ Game(){
@@ -426,6 +428,14 @@ void Game::initializeVariables(){
    this->mainFont.loadFromFile(this->data_folder+"/arial.ttf");
    this->mainMenu = new Menu(this->mainFont);
 
+}
+
+void Game::initializeSound(){
+    this->song.loadFromFile(data_folder+"/xDeviruchi - Mysterious Dungeon.wav");
+    this->mainSound.setBuffer(this->song);
+    this->mainSound.setLoop(true);
+    this->mainSound.setVolume(70);
+    this->mainSound.play();
 }
 
 void Game::initializeWindow(){

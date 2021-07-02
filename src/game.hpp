@@ -36,6 +36,8 @@ private:
     bool turnPassed = false;
     short gameState = 0; // 0 - main menu, 1 - game, 2 - game win, 3 - game over;
     Menu *mainMenu;
+    sf::SoundBuffer song;
+    sf::Sound mainSound;
 
     //Private functions
     void loadTextures();
@@ -47,6 +49,7 @@ private:
     void initializeRooms();
     void initializeText();
     void initializeStairs();
+    void initializeSound();
 
     void updateHpCounter();
     void gameWin();
@@ -77,6 +80,7 @@ private:
     sf::Text hpCounter, loseGameText, winGameText;
     sf::Font mainFont;
     sf::Sprite stairs;
+
 
 };
 
