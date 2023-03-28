@@ -1,5 +1,6 @@
 ## Abscond
-# projekt PSiO - Tomasz Naklicki
-
-* Przed uruchomieniem projektu proszę zmienić w klasie "game.hpp" ścieżkę do folderu z plikami;
-* W celu użycia wersji release, lub uruchomienia projektu bez edycji "game.hpp" należy umieścić folder "data" w ścieżce C:\\Abscond\Abscond ("C:\\Abscond\Abscond\data");
+# Description
+Basic roguelike video game created in Qt using C++ and SFML library as a project for university classes.
+# Installation
+* Before running the project change the directory for game assets in "game.hpp"
+* In order to use release version, place the "data" folder in "C:\Abscond\Abscond\data")
